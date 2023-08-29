@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Native Ads Template</string>
+
+    <!-- FAN Native Ads Template -->
+    <string name="fan_native_template">YOUR_PLACEMENT_ID</string>
+    <!-- FAN Native Ads Template  -->
+
+    <string name="style">Style</string>
+    <string name="adview_type">Height</string>
+
+    <string-array name="background_color_array">
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+</resources>

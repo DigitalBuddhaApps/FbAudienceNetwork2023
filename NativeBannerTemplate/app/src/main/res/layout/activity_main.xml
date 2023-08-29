@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="end"
+    tools:ignore="MergeRootFrame"
+    android:focusable="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomBarDes"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/templateContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomBarDes"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/bottomBar"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="@string/style" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="@string/adview_type"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:minHeight="30dp"
+        android:orientation="horizontal"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp">
+
+        <Spinner
+            android:id="@+id/backgroundColorSpinner"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/adViewTypeSpinner"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

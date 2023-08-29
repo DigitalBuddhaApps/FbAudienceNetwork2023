@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Native Banner</string>
+    <string name="fan_native_banner">YOUR_PLACEMENT_ID</string>
+    <string name="sponsored">Sponsored</string>
+
+</resources>

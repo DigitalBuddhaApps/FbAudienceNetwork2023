@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Interstitial</string>
+    <string name="fan_interstitial">YOUR_PLACEMENT_ID</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reward Video</string>
+    <string name="fan_rewarded">YOUR_PLACEMENT_ID</string>
+    <string name="show_ad">Show!</string>
+    <string name="load_rewarded_video">Load Rewarded Video</string>
+    <string name="enable_rewarded_interstitial">Enable Rewarded Interstitial</string>
+
+</resources>
